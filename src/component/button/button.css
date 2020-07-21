@@ -1,0 +1,10 @@
+.pagination-index {
+  padding: 10px;
+  color:white;
+  background-color: greenyellow;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+}

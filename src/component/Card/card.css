@@ -1,0 +1,10 @@
+.image-card{
+  height: 280px;
+  width: 280px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 15px;
+  cursor: pointer;
+}

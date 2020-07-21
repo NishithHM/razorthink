@@ -1,0 +1,45 @@
+.modal-wrapper {
+  height: 600px;
+  width: 700px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  z-index: 9999;
+  transition: all ease 0.8s;
+  background-color: white;
+}
+
+.image{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90%;
+  width: 100%;
+}
+
+.close-button{
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
+  margin: -10px -10px 0px 0;
+  font-size: 15px;
+  background-color: #000;
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.footer-modal{
+  margin-top: 15px;
+}
